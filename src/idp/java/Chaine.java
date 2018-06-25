@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Exercice1 {
+public class Chaine {
 	public static void main(String[] args) {
 		String bonjour = "salut la compagnie";
 		System.out.println(bonjour.toUpperCase());
