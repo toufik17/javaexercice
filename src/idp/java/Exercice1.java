@@ -42,8 +42,7 @@ public class Exercice1 {
 	}
 
 	private static String premiereMajusculeMot(String s) {
-		String result = Character.toUpperCase(s.substring(0, 1).charAt(0)) + s.substring(1);
-		return result;
+		return Character.toUpperCase(s.substring(0, 1).charAt(0)) + s.substring(1);
 	}
 	
 }
