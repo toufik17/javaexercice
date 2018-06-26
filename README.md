@@ -10,7 +10,7 @@ Exercice 2 - InformationsSysteme.java :
 
 A l'aide de la classe System, réalisez un programme qui affiche le nom de l'utilisateur et le nom du système d'exploitation utilisés sur l'ordinateur où se trouve le programme.
 
-Exercice 3 - Paire.java
+Exercice 3 - Mathematique.java
 
 Construire une classe Mathématique qui comporte plusieurs méthodes, savoir :
 
