@@ -15,5 +15,7 @@ Exercice 3 - Mathematique.java
 Construire une classe Mathématique qui comporte plusieurs méthodes, savoir :
 
 une fonction impaire, prend un entier en paramètre
+
 une fonction paire ( relative à la fonction impaire )
+
 une fonction valeur absolue, prend un double en paramètre
