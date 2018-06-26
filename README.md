@@ -24,4 +24,4 @@ ajouter une valeur,<br/>
 enlever le dernière valeur,<br/>
 afficher le contenu du tableau<br/>
 et quitter le programme.<br/>
-Au départ le tableau doit être vide (valeur 0 dans toutes les cases). L'affichage lorsqu'il est demandé doit être sous la forme de, par exemple <5, 3> (on remarque dans cet affichage que le tableau dispose de deux valeurs entières respectivement 5 et 3). Il faut protéger votre programme par les malversation de l'utilisateur, en effet il ne doit pas y avoir plus de dix valeurs dans le tableau même si l'opérateur, sans le faire exprès, veut en rajouter d'autre.
+Au départ le tableau doit être vide. L'affichage lorsqu'il est demandé doit être sous la forme de, par exemple <5, 3> (on remarque dans cet affichage que le tableau dispose de deux valeurs entières respectivement 5 et 3). Il faut protéger votre programme par les malversation de l'utilisateur, en effet il ne doit pas y avoir plus de dix valeurs dans le tableau même si l'opérateur, sans le faire exprès, veut en rajouter d'autre.
