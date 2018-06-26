@@ -17,7 +17,7 @@ une fonction impaire, prend un entier en paramètre<br/>
 une fonction paire ( relative à la fonction impaire )<br/>
 une fonction valeur absolue, prend un double en paramètre<br/>
 
-Exercice 4 -
+Exercice 4 - Tableau.java
 
 Faire un programme convivial (à l'aide d'un menu sommaire) qui permet de compléter un tableau d'entier de 10 cases, d'afficher son contenu, d'enlever des valeurs (le menu comporte 4 options :<br/>
 ajouter une valeur,<br/>
