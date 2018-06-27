@@ -44,7 +44,7 @@ Exercice 7 - TestEmploye
 
 Dans une société, un employé est décrit par les membres suivants :
 
-<b>Attributs<b> : <br/>
+<b>Attributs</b> : <br/>
 Nom ; Age ; salaire.<br/>
 Constructeurs : 
 par défaut, 
