@@ -36,4 +36,5 @@ Construire une classe Cercle qui dispose de 2 attributs : d'une part, l'attribut
 Pour terminer, contruisez une classe Carré qui possède également deux attributs : d'une part l'attribut centre qui est identique à Cercle, d'autre part, l'attribut côté qui a une valeur par défaut de 50, mais il est possible de fixer une autre valeur à la construction, par contre une fois que la valeur est donnée, il n'est plus possible de la modifier. Prévoyez tous les types de constructeurs. Les constructeurs seront les seules méthodes de votre classe.
 
 Exercice 6 - tab.java
+
 Soit une classe abstraite nommée Affichable, dotée d'une seule méthode abstraite affiche(). Deux classes Entier et Flottant dérivent de cette classe. La méthode main() utilise un tableau hétérogène d'objets de type Affichable qu'elle remplit en instanciant des objets de type Entier et Flottant.
