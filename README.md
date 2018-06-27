@@ -44,27 +44,37 @@ Exercice 7 - TestEmploye
 
 Dans une société, un employé est décrit par les membres suivants :
 
-<b>Attributs</b> : <br/>
-Nom ; Age ; salaire.<br/>
-Constructeurs : 
-par défaut, 
-par copie
-avec trois paramètres
+<b>Attributs : </b><br/>
+<ul>
+  <li>Nom ; Age ; salaire.</li>
+</ul>
+<b>Constructeurs :</b> 
+<ul>
+  <li>par défaut, </li>
+  <li> par copie</li>
+  <li>avec trois paramètres</li>
+ </ul>
 
-Méthodes :
-Augmentation(…) ; 
-toString() ; 
-afficher() ; 
-calculeSalaire() ;
+<b>Méthodes :</b><br/>
+<ul>
+  <li>Augmentation(…) ; </li>
+  <li>afficher() ; </li>
+  <li>calculeSalaire() ;</li>
+ </ul>
 
+Un technicien est décrit en plus par l’attribut : grade et la méthode prime( ) et la redéfinition de la méthode toString() et de la méthode calculeSalaire().<br/>
+<ul>
+  <li>Si grade=1 alors Prime= 100</li>
+  <li>Si grade=2 alors Prime= 200</li>
+  <li>Si grade=3 alors Prime= 300</li>
+ </ul>
 
-Un technicien est décrit en plus par l’attribut : grade et la méthode prime( ) et la redéfinition de la méthode toString() et de la méthode calculeSalaire().
-Si grade=1 alors Prime= 100
-Si grade=2 alors Prime= 200
-Si grade=3 alors Prime= 300
+Travail à faire : <br/>
+<ul>
+  <li>1-      Ecrire la classe Employé.
+</li>
+  <li>2-      Ecrire la classe Technicien.</li>
 
-Travail à faire : 
-
-1-      Ecrire la classe Employé.
-2-      Ecrire la classe Technicien.
-3-      Ecrire un programme qui saisie un employé puis un technicien et affiche leurs informations avant et après augmentation de leurs salaires.
+  <li>3-      Ecrire un programme qui saisie un employé puis un technicien et affiche leurs informations avant et après augmentation de leurs salaires.
+</li>
+ </ul>
