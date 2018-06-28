@@ -78,3 +78,15 @@ Travail à faire : <br/>
   <li>3-      Ecrire un programme qui saisie un employé puis un technicien et affiche leurs informations avant et après augmentation de leurs salaires.
 </li>
  </ul>
+ 
+Exercice 8 - 
+
+Paire est classe générique avec deux attributs, premier et deuxieme. Les deuxs attributs utilisent des variables de type <br/>
+T premier;
+T deuxieme;
+C'est celui qui utilisera cette classe qui spécifiera le type qu'il désire utiliser pour décrire l'objet de cette classe Paire.
+
+Faire un programme qui met en oeuvre la classe Paire. La méthode minmax() statique parcourt un tableau de chaînes de caractères et calcule en même temps la valeur minimale et la valeur maximale. Elle utilise un objet Paire pour renvoyer les deux résultats.<br/>
+Appliquer le même programme sur un tableau d'entiers.
+
+
