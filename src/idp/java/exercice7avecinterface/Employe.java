@@ -1,4 +1,4 @@
-package employes;
+package idp.java.exercice7avecinterface;
 
 public interface Employe {
 	
