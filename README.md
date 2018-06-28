@@ -89,4 +89,4 @@ C'est celui qui utilisera cette classe qui spécifiera le type qu'il désire uti
 Faire un programme qui met en oeuvre la classe Paire. La méthode minmax() statique parcourt un tableau de chaînes de caractères et calcule en même temps la valeur minimale et la valeur maximale. Elle utilise un objet Paire pour renvoyer les deux résultats.<br/>
 Appliquer le même programme sur un tableau d'entiers.
 
-
+Souvenez-vous que la méthode compareTo() compare deux chaînes et renvoie 0 si les deux chaînes sont identiques, un entier négatif si la première chaîne vient avant la seconde dans l'ordre alphabétique et un entier positif dans les autres cas.
