@@ -62,7 +62,7 @@ Dans une société, un employé est décrit par les membres suivants :
   <li>calculeSalaire() ;</li>
  </ul>
 
-Un technicien est décrit en plus par l’attribut : grade et la méthode prime( ) et la redéfinition de la méthode toString() et de la méthode calculeSalaire().<br/>
+Un technicien est décrit en plus par l’attribut : grade et la méthode prime( ) et la redéfinition de la méthode calculeSalaire().<br/>
 <ul>
   <li>Si grade=1 alors Prime= 100</li>
   <li>Si grade=2 alors Prime= 200</li>
