@@ -96,11 +96,11 @@ Exercice 9 :
 
 Soit les deux classes d'exception E1 et E2
 
- public class E1 extends Exception {
+ <pre><code>public class E1 extends Exception {
      public E1(String mess) {
          super(mess);
      }
- }<br/>
+ }</code></pre>
  public class E2 extends Exception {
      public E2(String mess) {
          super(mess);
