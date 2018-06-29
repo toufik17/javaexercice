@@ -90,3 +90,77 @@ Faire un programme qui met en oeuvre la classe Paire. La méthode minmax() stati
 Appliquer le même programme sur un tableau d'entiers.
 
 Souvenez-vous que la méthode compareTo() compare deux chaînes et renvoie 0 si les deux chaînes sont identiques, un entier négatif si la première chaîne vient avant la seconde dans l'ordre alphabétique et un entier positif dans les autres cas.
+
+
+Exercice 9 :
+
+Soit les deux classes d'exception E1 et E2
+
+ <pre><code>public class E1 extends Exception {
+     public E1(String mess) {
+         super(mess);
+     }
+ }</code></pre>
+ <pre><code>public class E2 extends Exception {
+     public E2(String mess) {
+         super(mess);
+     }
+ }
+</code></pre>
+et la classe suivante
+
+<code><pre>
+  /**
+  * Programme de test pour ?tudier le m?canisme d'exceptions
+  */
+ public class TraceException {
+     private double x;
+     
+     /** Creates a new instance of TraceException */
+     public TraceException(double x) {
+         this.x = x;
+    }
+    
+    public double getX() {
+        return x;
+    }
+    
+    public void m1(double y) throws E1,E2 {
+        System.out.println("D?but de m1");
+        if (y == 0)
+            throw new E1("parametre de m1 null");
+        if (x * y < 0)
+            throw new E2("parametre de signe oppos? ? l'attribut");
+        x = x / y;
+        System.out.println("Fin de m1");
+    }
+    
+    public void m2(double y) throws E1 {
+        System.out.println("D?but de m2");
+        try {
+            System.out.println("Dans m2 avant appel de m1");
+            m1(y);<br/>
+            System.out.println("Dans m2 apres appel de m1");
+        }
+        catch (E2 excpt) {
+            System.out.println(excpt.getMessage());
+        }
+         System.out.println("Fin de m2");
+     }
+     
+     public static void main(String[] args) throws E1 {
+         System.out.println("Debut du main");
+         TraceException te = new TraceException(Double.parseDouble(args[0]));
+         te.m2(Double.parseDouble(args[1]));
+         System.out.println("x = " + te.getX());
+         System.out.println("Fin du main");
+     }
+ }
+</code></pre>
+
+
+Question : Donnez l'affichage produit sur la console pour chacune des exécutions suivantes :
+
+a) java TraceException 10 2<br/>
+b) java TraceException 10 -2<br/>
+c) java TraceException 10 0<br/>
