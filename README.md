@@ -96,66 +96,66 @@ Exercice 9 :
 
 Soit les deux classes d'exception E1 et E2
 
-1 public class E1 extends Exception {
-2     public E1(String mess) {
-3         super(mess);
-4     }
-5 }<br/>
-1 public class E2 extends Exception {
-2     public E2(String mess) {
-3         super(mess);
-4     }
-5 }
-<<br/>
+ public class E1 extends Exception {
+     public E1(String mess) {
+         super(mess);
+     }
+ }<br/>
+ public class E2 extends Exception {
+     public E2(String mess) {
+         super(mess);
+     }
+ }
+<br/>
 et la classe suivante
 
 
- 1 /**<br/>
- 2  * Programme de test pour �tudier le m�canisme d'exceptions<br/>
- 4  */<br/>
- 5 public class TraceException {<br/>
- 6     private double x;<br/>
- 7     
- 8     /** Creates a new instance of TraceException */<br/>
- 9     public TraceException(double x) {<br/>
-10         this.x = x;<br/>
-11     }<br/>
-12     
-13     public double getX() {<br/>
-14         return x;<br/>
-15     }<br/>
-16     
-17     public void m1(double y) throws E1,E2 {<br/>
-18         System.out.println("D�but de m1");<br/>
-19         if (y == 0)<br/>
-20             throw new E1("parametre de m1 null");<br/>
-21         if (x * y < 0)<br/>
-22             throw new E2("parametre de signe oppos� � l'attribut");<br/>
-23         x = x / y;<br/>
-24         System.out.println("Fin de m1");<br/>
-25     }<br/>
-26     
-27     public void m2(double y) throws E1 {<br/>
-28         System.out.println("D�but de m2");<br/>
-29         try {<br/>
-30             System.out.println("Dans m2 avant appel de m1");<br/>
-31             m1(y);<br/>
-32             System.out.println("Dans m2 apres appel de m1");  <br/>
-33         }<br/>
-34         catch (E2 excpt) {<br/>
-35             System.out.println(excpt.getMessage());<br/>
-36         }<br/>
-37         System.out.println("Fin de m2");<br/>
-38     }<br/>
-39     
-40     public static void main(String[] args) throws E1 {<br/>
-41         System.out.println("Debut du main");<br/>
-42         TraceException te = new TraceException(Double.parseDouble(args[0]));<br/>
-43         te.m2(Double.parseDouble(args[1]));<br/>
-44         System.out.println("x = " + te.getX());<br/>
-45         System.out.println("Fin du main");<br/>
-46     }<br/>
-47 }<br/>
+  /**<br/>
+  * Programme de test pour ?tudier le m?canisme d'exceptions<br/>
+  */<br/>
+ public class TraceException {<br/>
+     private double x;<br/>
+     
+     /** Creates a new instance of TraceException */<br/>
+     public TraceException(double x) {<br/>
+         this.x = x;<br/>
+    }<br/>
+    
+    public double getX() {<br/>
+        return x;<br/>
+    }<br/>
+    
+    public void m1(double y) throws E1,E2 {<br/>
+        System.out.println("D?but de m1");<br/>
+        if (y == 0)<br/>
+            throw new E1("parametre de m1 null");<br/>
+        if (x * y < 0)<br/>
+            throw new E2("parametre de signe oppos? ? l'attribut");<br/>
+        x = x / y;<br/>
+        System.out.println("Fin de m1");<br/>
+    }<br/>
+    
+    public void m2(double y) throws E1 {<br/>
+        System.out.println("D?but de m2");<br/>
+        try {<br/>
+            System.out.println("Dans m2 avant appel de m1");<br/>
+            m1(y);<br/>
+            System.out.println("Dans m2 apres appel de m1");  <br/>
+        }<br/>
+        catch (E2 excpt) {<br/>
+            System.out.println(excpt.getMessage());<br/>
+        }<br/>
+         System.out.println("Fin de m2");<br/>
+     }<br/>
+     
+     public static void main(String[] args) throws E1 {<br/>
+         System.out.println("Debut du main");<br/>
+         TraceException te = new TraceException(Double.parseDouble(args[0]));<br/>
+         te.m2(Double.parseDouble(args[1]));<br/>
+         System.out.println("x = " + te.getX());<br/>
+         System.out.println("Fin du main");<br/>
+     }<br/>
+ }<br/>
 
 
 Question : Donnez l'affichage produit sur la console pour chacune des exécutions suivantes :
