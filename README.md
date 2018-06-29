@@ -109,7 +109,7 @@ Soit les deux classes d'exception E1 et E2
 </code></pre>
 et la classe suivante
 
-</code></pre>
+<code><pre>
   /**
   * Programme de test pour ?tudier le m?canisme d'exceptions
   */
@@ -156,6 +156,7 @@ et la classe suivante
          System.out.println("Fin du main");
      }
  }
+</code></pre>
 
 
 Question : Donnez l'affichage produit sur la console pour chacune des exécutions suivantes :
