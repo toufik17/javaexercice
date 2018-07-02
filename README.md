@@ -164,3 +164,12 @@ Question : Donnez l'affichage produit sur la console pour chacune des exécution
 a) java TraceException 10 2<br/>
 b) java TraceException 10 -2<br/>
 c) java TraceException 10 0<br/>
+
+Exercice 10 - TestMakeRange.java
+
+Définir une méthode appelée makeRange() dans une classe TestMakeRange qui admet deux entiers, une limite inférieure et une limite supérieure, et crée un tableau qui contient tous les entiers compris entre ces deux entiers (à l'inclusion des deux limites). Par exemple, lorsque j'écris ceci :
+makeRange(3, 7); le résultat doit-être : [ 3 4 5 6 7 ]
+
+Exercice 11 - exercicefichier
+
+Manipulation des fichiers
