@@ -164,3 +164,37 @@ Question : Donnez l'affichage produit sur la console pour chacune des exécution
 a) java TraceException 10 2<br/>
 b) java TraceException 10 -2<br/>
 c) java TraceException 10 0<br/>
+
+Exercice 10 - TestMakeRange.java
+
+Définir une méthode appelée makeRange() dans une classe TestMakeRange qui admet deux entiers, une limite inférieure et une limite supérieure, et crée un tableau qui contient tous les entiers compris entre ces deux entiers (à l'inclusion des deux limites). Par exemple, lorsque j'écris ceci :
+makeRange(3, 7); le résultat doit-être : [ 3 4 5 6 7 ]
+
+Exercice 11 - exercicefichier
+
+Manipulation des fichiers
+
+Exercice 12 - 
+
+Exercice sur les collections en JAVA
+
+<lu>
+<li>	Créer une ArrayList de 4 pays. (le pays est de type String)</li>
+<li>	Afficher la taille de votre liste en annonçant combien de pays elle contient.</li>
+<li>	Afficher la liste de pays (Essayer d’en faire une méthode et de l’appeler dans votre programme).</li>
+<li>	Effacer votre liste, affichez la à nouveau.</li>
+<li>	Remplir à nouveau votre liste de 4 pays.</li>
+<li>	Vérifier si un pays fait partie de la liste et afficher si il existe ou pas.</li>
+<li>	Classer et afficher votre liste par ordre alphabétique</li>
+</lu>
+
+
+Exercice 13- List avec interface swing
+
+je vous porpose de mettre en oeuvre une application qui permet de recenser l'ensemble des notes à prendre en compte pour calculer une moyenne, ansi que de connaître automatiquement, la note la plus haute, la plus basse, etc.
+
+<pre>
+<code>
+private JFormattedTextField nouvelleNote = new JFormattedTextField(NumberFormat.getNumberInstance());
+</pre>
+</code>
