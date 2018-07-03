@@ -173,3 +173,17 @@ makeRange(3, 7); le résultat doit-être : [ 3 4 5 6 7 ]
 Exercice 11 - exercicefichier
 
 Manipulation des fichiers
+
+Exercice 12 - 
+
+Exercice sur les collections en JAVA
+
+<lu>
+<li>	Créer une ArrayList de 4 pays.</li>
+<li>	Afficher la taille de votre liste en annonçant combien de pays elle contient.</li>
+<li>	Afficher la liste de pays (Essayer d’en faire une méthode et de l’appeler dans votre programme).</li>
+<li>	Effacer votre liste, affichez la à nouveau.</li>
+<li>	Remplir à nouveau votre liste de 4 pays.</li>
+<li>	Vérifier si un pays fait partie de la liste et afficher si il existe ou pas.</li>
+<li>	Classer et afficher votre liste par ordre alphabétique</li>
+</lu>
