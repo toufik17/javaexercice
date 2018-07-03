@@ -187,3 +187,8 @@ Exercice sur les collections en JAVA
 <li>	Vérifier si un pays fait partie de la liste et afficher si il existe ou pas.</li>
 <li>	Classer et afficher votre liste par ordre alphabétique</li>
 </lu>
+
+
+Exercice 13- List avec interface swing
+
+je vous porpose de mettre en oeuvre une application qui permet de recenser l'ensemble des notes à prendre en compte pour calculer une moyenne, ansi que de connaître automatiquement, la note la plus haute, la plus basse, etc.
