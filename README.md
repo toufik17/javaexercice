@@ -192,3 +192,9 @@ Exercice sur les collections en JAVA
 Exercice 13- List avec interface swing
 
 je vous porpose de mettre en oeuvre une application qui permet de recenser l'ensemble des notes à prendre en compte pour calculer une moyenne, ansi que de connaître automatiquement, la note la plus haute, la plus basse, etc.
+
+<pre>
+<code>
+private JFormattedTextField nouvelleNote = new JFormattedTextField(NumberFormat.getNumberInstance());
+</pre>
+</code>
