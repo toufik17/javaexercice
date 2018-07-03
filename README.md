@@ -179,7 +179,7 @@ Exercice 12 -
 Exercice sur les collections en JAVA
 
 <lu>
-<li>	Créer une ArrayList de 4 pays.</li>
+<li>	Créer une ArrayList de 4 pays. (le pays est de type String)</li>
 <li>	Afficher la taille de votre liste en annonçant combien de pays elle contient.</li>
 <li>	Afficher la liste de pays (Essayer d’en faire une méthode et de l’appeler dans votre programme).</li>
 <li>	Effacer votre liste, affichez la à nouveau.</li>
