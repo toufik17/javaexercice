@@ -264,3 +264,10 @@ public class TestCartes0 {
 }
 </pre>
 </code>
+
+</br>
+Quel résultat donne-t-il ? Pourquoi ?
+
+__Question 2 __
+
+Ajouter à la classe Carte les méthodes equals et hashcode. Tester la classe.
