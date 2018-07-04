@@ -294,3 +294,19 @@ méthodes :
 Écrire la classe MainDeJoueur1 en utilisant un HashSet pour implémenter la main.
 Vérifier le bon fonctionnement de la classe :
 • écrire un programme où vous créez une main, y ajoutez des cartes, et affichez le résultat.
+
+
+__Question 5 
+
+</br>Classe Paquet de carte
+On représente un paquet de cartes par la classe « Paquet ».
+Quand on crée un paquet, il est complet (et a priori mélangé).
+On dote la classe paquet d'une méthode toString et d'une méthode creerMainDeJoueur1.
+Celle-ci tire 7 cartes du paquet (les 7 premières, par exemples), pour constituer une main, puis elle retourne la main.
+
+</br>Test: faire un main qui
+<ul>
+	<li>crée un paquet</li>
+	<li>affiche le paquet.</li>
+	<li>Crée une main</li>
+</ul>
