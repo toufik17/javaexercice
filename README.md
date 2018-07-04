@@ -268,6 +268,6 @@ public class TestCartes0 {
 </br>
 Quel résultat donne-t-il ? Pourquoi ?
 
-__Question 2 __
+__Question 2__
 
 Ajouter à la classe Carte les méthodes equals et hashcode. Tester la classe.
