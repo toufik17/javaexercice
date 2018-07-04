@@ -281,3 +281,16 @@ Ajouter 3 cartes :
 </br>cartes.add(new Carte(10, Carte.CARREAU));
 </br>cartes.add(new Carte(1, Carte.COEUR));
 
+__Question 4 Classe MainDeJoueur1.__
+
+</br>On veut représenter la main d'un joueur. Pour cela on écrit la classe MainJoueur1.
+Une main de joueur contient un certain nombre de cartes. Pour l'instant, on désire la doter des
+méthodes :
+<li>
+<lu> add(Carte) : ajoute une carte à la main.</lu>
+<lu> contient(Carte) : renvoie vrai si la main contient la carte en question</lu>
+<lu> toString() : renvoie une représentation de la main sous forme de String.</lu>
+</li>
+Écrire la classe MainDeJoueur1 en utilisant un HashSet pour implémenter la main.
+Vérifier le bon fonctionnement de la classe :
+• écrire un programme où vous créez une main, y ajoutez des cartes, et affichez le résultat.
