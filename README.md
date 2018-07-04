@@ -296,7 +296,7 @@ Vérifier le bon fonctionnement de la classe :
 • écrire un programme où vous créez une main, y ajoutez des cartes, et affichez le résultat.
 
 
-__Question 5 
+__Question 5__
 
 </br>Classe Paquet de carte
 On représente un paquet de cartes par la classe « Paquet ».
