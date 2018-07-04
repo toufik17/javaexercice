@@ -243,3 +243,24 @@ public class Carte {
 }
 </pre>
 </code>
+
+Tester le programme suivant :
+
+<pre>
+<code>
+import java.util.ArrayList;
+
+public class TestCartes0 {
+	public static void main(String[] args) {
+		ArrayList<Carte> cartes = new ArrayList<Carte>();
+		cartes.add(new Carte(10, Carte.CARREAU));
+		cartes.add(new Carte(1, Carte.COEUR));
+		if (cartes.contains(new Carte(10, Carte.CARREAU))) {
+			System.out.println("Le jeu contient le 10 de carreau");
+		} else {
+			System.out.println("Le jeu ne contient pas le 10 de carreau");
+		}
+	}
+}
+</pre>
+</code>
