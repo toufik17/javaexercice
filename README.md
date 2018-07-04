@@ -199,3 +199,9 @@ je vous porpose de mettre en oeuvre une application qui permet de recenser l'ens
 private JFormattedTextField nouvelleNote = new JFormattedTextField(NumberFormat.getNumberInstance());
 </pre>
 </code>
+
+<br/> Exercice 14 - manipulation des map
+
+<br/> Exercice 15 - Collection
+
+####Question 1
