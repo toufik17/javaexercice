@@ -271,3 +271,13 @@ Quel résultat donne-t-il ? Pourquoi ?
 __Question 2__
 
 Ajouter à la classe Carte les méthodes equals et hashcode. Tester la classe.
+
+__Question 3__
+
+Remplacez l'ArrayList par un HashSet.
+
+Ajouter 3 cartes :
+</br>cartes.add(new Carte(10, Carte.CARREAU));
+</br>cartes.add(new Carte(10, Carte.CARREAU));
+</br>cartes.add(new Carte(1, Carte.COEUR));
+
