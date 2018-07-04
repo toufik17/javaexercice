@@ -267,7 +267,7 @@ public class TestCartes0 {
 
 </br>
 Quel résultat donne-t-il ? Pourquoi ?
-
+</br>
 __Question 2__
 
 Ajouter à la classe Carte les méthodes equals et hashcode. Tester la classe.
@@ -295,7 +295,7 @@ méthodes :
 Vérifier le bon fonctionnement de la classe :
 • écrire un programme où vous créez une main, y ajoutez des cartes, et affichez le résultat.
 
-
+</br>
 __Question 5__
 
 </br>Classe Paquet de carte
