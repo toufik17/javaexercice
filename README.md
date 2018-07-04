@@ -296,6 +296,7 @@ Vérifier le bon fonctionnement de la classe :
 • écrire un programme où vous créez une main, y ajoutez des cartes, et affichez le résultat.
 
 </br>
+
 __Question 5__
 
 </br>Classe Paquet de carte
