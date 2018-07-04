@@ -210,30 +210,36 @@ On considère la classe Carte :
 <pre>
 <code>
 package cartes;
+
 public class Carte {
-// NOTE : commencez par modifer ce code pour utiliser un enum afn de représenter la
-// couleur.
-public static fnal String PIQUE = "pique";
-public static fnal String TREFLE = "trefe";
-public static fnal String COEUR = "coeur";
-public static fnal String CARREAU = "carreau";
-public static fnal String[] couleurs = { PIQUE, TREFLE, COEUR, CARREAU };
-private int valeur;
-private String couleur;
-public Carte(int valeur, String couleur) {
-this.valeur = valeur;
-this.couleur = couleur;
-}
-public int getValeur() {
-return valeur;
-}
-public String getCouleur() {
-return couleur;
-}
-@Override
-public String toString() {
-return "" + valeur + " de " + couleur;
-}
+	// NOTE : commencez par modifer ce code pour utiliser un enum afn de
+	// représenter la
+	// couleur.
+	public static final String PIQUE = "pique";
+	public static final String TREFLE = "trefe";
+	public static final String COEUR = "coeur";
+	public static final String CARREAU = "carreau";
+	public static final String[] couleurs = { PIQUE, TREFLE, COEUR, CARREAU };
+	private int valeur;
+	private String couleur;
+
+	public Carte(int valeur, String couleur) {
+		this.valeur = valeur;
+		this.couleur = couleur;
+	}
+
+	public int getValeur() {
+		return valeur;
+	}
+
+	public String getCouleur() {
+		return couleur;
+	}
+
+	@Override
+	public String toString() {
+		return "" + valeur + " de " + couleur;
+	}
 }
 </pre>
 </code>
