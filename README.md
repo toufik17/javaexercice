@@ -366,3 +366,5 @@ Exercice de synthese :
 
 
 - afficher la map
+
+- Tout au long de l'exercice, si on arrive pas à lire \ ecrire dans le fichier on afficher le message "Erreur Lecture\Ecriture !!!"
