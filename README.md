@@ -326,4 +326,12 @@ Exercice de synthese :
 	</pre>
 	</code>
 	
--
+- ajouter une méthode qui permet d'ecrire dans le fichier, vous pouvez utilser :
+<pre>
+<code>
+    writer = new OutputStreamWriter(new FileOutputStream(fichier, true));
+    writer.write("bonjour\nje suis une ligne\n");
+</pre>
+</code>
+
+- 
