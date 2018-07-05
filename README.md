@@ -334,7 +334,7 @@ Exercice de synthese :
 </code>
 </pre>
 
-- ajouter une methode qui permet de ligne dans le fichier :
+- ajouter une methode qui permet de lire le fichier :
 			<pre>
 			<code>
 			reader = new InputStreamReader(new FileInputStream(fichier));
@@ -347,3 +347,5 @@ Exercice de synthese :
 			}
 			</code>
 			</pre>
+			
+ - afficher le contenu du fichier dans la console
