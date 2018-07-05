@@ -349,3 +349,7 @@ Exercice de synthese :
 			</pre>
 			
  - afficher le contenu du fichier dans la console
+
+- créer une classe ligne, elle a comme attribut : taille, contenu et nombre de ligne du fichier (utilisé static pour calculer le nombre de ligne)
+
+- créer une map avec comme cle : le numéro de ligne et comme valeur un objet ligne
