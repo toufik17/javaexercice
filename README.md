@@ -311,3 +311,7 @@ Celle-ci tire 7 cartes du paquet (les 7 premières, par exemples), pour constitu
 	<li>affiche le paquet.</li>
 	<li>Crée une main</li>
 </ul>
+
+Exercice de synthese :
+
+- Dans une class main ajouter une methode qui permet de créer un fichier vide 
