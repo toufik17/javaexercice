@@ -365,4 +365,4 @@ Exercice de synthese :
 	exemple : put(0, new ligne(9, "bla bla bla")) ça serait la première ligne du fichier
 
 
-- 
+- afficher la map
