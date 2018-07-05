@@ -353,3 +353,16 @@ Exercice de synthese :
 - créer une classe ligne, elle a comme attribut : taille, contenu et nombre de ligne du fichier (utilisé static pour calculer le nombre de ligne)
 
 - créer une map avec comme cle : le numéro de ligne et comme valeur un objet ligne
+
+- copier le contenu du fichier dans la map
+
+- afficher le contenu de la map sous format : 
+		ligne 1 : bla bla bla
+		ligne 2 : bla bla bla
+
+- ajouter une méthode qui permet d'ajouter une ligne dans la map et la positionner par rapport le numéro de la ligne
+
+	exemple : put(0, new ligne(9, "bla bla bla")) ça serait la première ligne du fichier
+
+
+- 
