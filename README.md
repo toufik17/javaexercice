@@ -367,4 +367,8 @@ Exercice de synthese :
 
 - afficher la map
 
+- Mettre à jour le fichier à partir de la map
+
+- Afficher à nouveau le contenu du fichier
+
 - Tout au long de l'exercice, si on arrive pas à lire \ ecrire dans le fichier on affiche le message "Erreur Lecture\Ecriture !!!"
