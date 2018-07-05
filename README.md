@@ -314,4 +314,16 @@ Celle-ci tire 7 cartes du paquet (les 7 premières, par exemples), pour constitu
 
 Exercice de synthese :
 
-- Dans une class main ajouter une methode qui permet de créer un fichier vide 
+- Dans une class main ajouter une methode qui permet de créer un fichier vide
+	pour créer le fichier vous pouvez utiliser : 
+	<pre>
+	<code>
+	// creation de fichier
+	File file = new File("Test.txt");
+	if(!file.exists()){
+		file.createNewFile();
+	}
+	</pre>
+	</code>
+	
+-
