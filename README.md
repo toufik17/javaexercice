@@ -331,7 +331,19 @@ Exercice de synthese :
 <code>
     writer = new OutputStreamWriter(new FileOutputStream(fichier, true));
     writer.write("bonjour\nje suis une ligne\n");
-</pre>
 </code>
+</pre>
 
-- 
+- ajouter une methode qui permet de ligne dans le fichier :
+			<pre>
+			<code>
+			reader = new InputStreamReader(new FileInputStream(fichier));
+			//char[] chars = new char[1000];
+			//while(reader.read(chars) != -1);
+
+			int r;
+			while((r = reader.read())!= -1){
+				System.out.print((char)r);
+			}
+			</code>
+			</pre>
