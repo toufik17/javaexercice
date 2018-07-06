@@ -388,3 +388,4 @@ Après discussion avec l’expert métier, il apparaît que l’une des sous fon
 l’authentification (systématique et commune au 3 cas d’utilisations Retirer de l’argent,
 Consulter ses soldes et Effectuer un virement).
 - Le DAB permet à son utilisateur d’imprimer un reçu s’il le désire.
+- L’expert métier précise que le DAB sera situé dans une zone internationale et devra donc pouvoir fournir la somme d’argent en Dollars ou en Euros.
