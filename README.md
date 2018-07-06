@@ -387,3 +387,4 @@ Le DAB (Distributeur Automatique de Billet)
 Après discussion avec l’expert métier, il apparaît que l’une des sous fonctions importantes est
 l’authentification (systématique et commune au 3 cas d’utilisations Retirer de l’argent,
 Consulter ses soldes et Effectuer un virement).
+- Le DAB permet à son utilisateur d’imprimer un reçu s’il le désire.
