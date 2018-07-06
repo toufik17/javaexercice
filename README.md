@@ -383,3 +383,7 @@ Le DAB (Distributeur Automatique de Billet)
 - Le DAB consulte le Système d’Information de la banque (S.I. Banque) pour les opérations que désire effectuer un client de la banque (retraits, consultation soldes et virements).
 - Le DAB consulte le Système d’Autorisation Globale Carte Bancaire (Sys. Auto.) pour les retraits des porteurs de cartes non clients de la banque.
 - Le DAB nécessite des opérations de maintenance tel que la recharge en billet, la récupération des cartes avalée, etc.
+
+Après discussion avec l’expert métier, il apparaît que l’une des sous fonctions importantes est
+l’authentification (systématique et commune au 3 cas d’utilisations Retirer de l’argent,
+Consulter ses soldes et Effectuer un virement).
