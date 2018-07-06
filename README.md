@@ -382,4 +382,4 @@ Le DAB (Distributeur Automatique de Billet)
 - Les transactions sont sécurisées c’est-à-dire :
 - Le DAB consulte le Système d’Information de la banque (S.I. Banque) pour les opérations que désire effectuer un client de la banque (retraits, consultation soldes et virements).
 - Le DAB consulte le Système d’Autorisation Globale Carte Bancaire (Sys. Auto.) pour les retraits des porteurs de cartes non clients de la banque.
-_ Le DAB nécessite des opérations de maintenance tel que la recharge en billet, la récupération des cartes avalée, etc.
+- Le DAB nécessite des opérations de maintenance tel que la recharge en billet, la récupération des cartes avalée, etc.
