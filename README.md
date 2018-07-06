@@ -372,3 +372,14 @@ Exercice de synthese :
 - Afficher à nouveau le contenu du fichier
 
 - Tout au long de l'exercice, si on arrive pas à lire \ ecrire dans le fichier on affiche le message "Erreur Lecture\Ecriture !!!"
+
+Exercice UML :
+
+Le DAB (Distributeur Automatique de Billet)
+
+- Un DAB permet à tout détenteur de carte bancaire de retirer de l’argent.
+- Si le détenteur de carte est un client de la banque propriétaire du DAB, il peut en plus consulter les soldes de ses comptes et effectuer des virements entres ces différents comptes.
+- Les transactions sont sécurisées c’est-à-dire :
+- Le DAB consulte le Système d’Information de la banque (S.I. Banque) pour les opérations que désire effectuer un client de la banque (retraits, consultation soldes et virements).
+- Le DAB consulte le Système d’Autorisation Globale Carte Bancaire (Sys. Auto.) pour les retraits des porteurs de cartes non clients de la banque.
+_ Le DAB nécessite des opérations de maintenance tel que la recharge en billet, la récupération des cartes avalée, etc.
