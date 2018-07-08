@@ -267,7 +267,7 @@ public class TestCartes0 {
 
 </br>
 Quel résultat donne-t-il ? Pourquoi ?
-
+</br>
 __Question 2__
 
 Ajouter à la classe Carte les méthodes equals et hashcode. Tester la classe.
@@ -295,8 +295,9 @@ méthodes :
 Vérifier le bon fonctionnement de la classe :
 • écrire un programme où vous créez une main, y ajoutez des cartes, et affichez le résultat.
 
+</br>
 
-__Question 5 
+__Question 5__
 
 </br>Classe Paquet de carte
 On représente un paquet de cartes par la classe « Paquet ».
@@ -310,3 +311,64 @@ Celle-ci tire 7 cartes du paquet (les 7 premières, par exemples), pour constitu
 	<li>affiche le paquet.</li>
 	<li>Crée une main</li>
 </ul>
+
+Exercice de synthese :
+
+- Dans une class main ajouter une methode qui permet de créer un fichier vide
+	pour créer le fichier vous pouvez utiliser : 
+	<pre>
+	<code>
+	// creation de fichier
+	File file = new File("Test.txt");
+	if(!file.exists()){
+		file.createNewFile();
+	}
+	</pre>
+	</code>
+	
+- ajouter une méthode qui permet d'ecrire dans le fichier, vous pouvez utilser :
+<pre>
+<code>
+    writer = new OutputStreamWriter(new FileOutputStream(fichier, true));
+    writer.write("bonjour\nje suis une ligne\n");
+</code>
+</pre>
+
+- ajouter une methode qui permet de lire le fichier :
+			<pre>
+			<code>
+			reader = new InputStreamReader(new FileInputStream(fichier));
+			//char[] chars = new char[1000];
+			//while(reader.read(chars) != -1);
+
+			int r;
+			while((r = reader.read())!= -1){
+				System.out.print((char)r);
+			}
+			</code>
+			</pre>
+			
+ - afficher le contenu du fichier dans la console
+
+- créer une classe ligne, elle a comme attribut : taille, contenu et nombre de ligne du fichier (utilisé static pour calculer le nombre de ligne)
+
+- créer une map avec comme cle : le numéro de ligne et comme valeur un objet ligne
+
+- copier le contenu du fichier dans la map
+
+- afficher le contenu de la map sous format : 
+		ligne 1 : bla bla bla
+		ligne 2 : bla bla bla
+
+- ajouter une méthode qui permet d'ajouter une ligne dans la map et la positionner par rapport le numéro de la ligne
+
+	exemple : put(0, new ligne(9, "bla bla bla")) ça serait la première ligne du fichier
+
+
+- afficher la map
+
+- Mettre à jour le fichier à partir de la map
+
+- Afficher à nouveau le contenu du fichier
+
+- Tout au long de l'exercice, si on arrive pas à lire \ ecrire dans le fichier on affiche le message "Erreur Lecture\Ecriture !!!"
