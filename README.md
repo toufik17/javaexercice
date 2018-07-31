@@ -1,5 +1,6 @@
 # javaexercice
-Exercice 1 - Chaine.java :
+
+## Exercice 1 - Chaine.java :
 
 Soit la déclaration suivante dans la méthode main :
 String bonjour = "salut la compagnie";
